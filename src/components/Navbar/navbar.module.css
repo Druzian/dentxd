@@ -2,11 +2,25 @@
     background-color: #379adc;
     overflow: hidden;
 }
+
+.navContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
 .navList {
     float: right;
     list-style-type: none;
     margin: 0;
-    padding: 0 30px 0 0;
+    padding: 0 0;
     display: flex;
     gap: 30px;
+}
+.navLogo {
+    float: left;
+    display: flex;
+    align-items: center;
 }
